@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Repositories\Contracts;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
+
+interface BaseRepositoryInterface
+{
+    public function all(): Collection;
+    public function find(int $id): ?Model;
+    public function create(array $data): Model;
+    public function update(Model $model, array $data): Model;
+}

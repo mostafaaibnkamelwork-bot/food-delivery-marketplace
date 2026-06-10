@@ -1,0 +1,35 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Archives and generated delivery files
+*.zip
+*.tar
+*.tar.gz
+
+# Dependencies
+vendor/
+node_modules/
+
+# Build outputs
+build/
+dist/
+coverage/
+
+# Temporary files
+tmp/
+temp/
+.cache/
